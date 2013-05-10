@@ -17,7 +17,7 @@
 /***** Global *****/
 /* Body */
 body {
-    background: #F5F4EF;
+    background: url('../images/textured_paper_red.png') /*, #F5F4EF*/;
     color: #000305;
     font-size: 87.5%; /* Base font size: 14px */
     font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -54,6 +54,7 @@ a:link, a:visited {
 	padding: 0 1px;
 	text-decoration: underline;
 }
+
 a:hover, a:active {
 	background-color: #C74350;
 	color: #fff;
