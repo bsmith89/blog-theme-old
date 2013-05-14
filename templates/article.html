@@ -11,8 +11,10 @@
     </header>
 
     <div class="entry-content">
-      {% include 'article_infos.html' %}
-      {{ article.content }}
+		{% include 'article_infos.html' %}
+	<div class="article-content">
+		{{ article.content }}
+	</div><!-- /.article-content -->
     </div><!-- /.entry-content -->
     {% if DISQUS_SITENAME and SITEURL and article.status != "draft" %}
     <div class="comments">

@@ -71,11 +71,6 @@ div.line-block,
 p { margin-top: 1em;
     margin-bottom: 1em;}
 
-
-article a:visited { /*TODO: I don't want article-info <a>'s to change color.*/
-  color: #861683;
-}
-
 strong, b {font-weight: bold;}
 em, i {font-style: italic;}
 
@@ -98,9 +93,13 @@ li { margin-top: 0.5em;}
     padding:5px;
 }
 
-.post-info p{
+.post-info p {
     margin-top: 1px;
     margin-bottom: 1px;
+}
+
+.article-content a:visited {
+  color: #861683;
 }
 
 .readmore { float: right }
