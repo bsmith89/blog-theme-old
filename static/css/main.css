@@ -98,8 +98,12 @@ li { margin-top: 0.5em;}
     margin-bottom: 1px;
 }
 
-.article-content a:visited {
-  color: #861683;
+.taglist {
+    word-wrap: break-word
+}
+
+.article-content a:visited, a:visited.readmore {
+    color: #861683;
 }
 
 .readmore { float: right }
